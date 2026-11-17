@@ -1,0 +1,8 @@
+Fastapi
+numpy
+pydantic
+flask
+uvicorn
+sqlalchemy
+fastapi_restful
+typing_inspect

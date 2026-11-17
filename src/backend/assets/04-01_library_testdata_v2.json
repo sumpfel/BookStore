@@ -1,0 +1,87 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "isbn": "9783596294879",
+      "title": "Der Prozess",
+      "author": "Franz Kafka",
+      "publisher": "S. Fischer Verlag",
+      "publishedYear": 1925,
+      "isAvailable": true
+    },
+    {
+      "id": 1,
+      "isbn": "9783150000014",
+      "title": "Faust I",
+      "author": "Johann Wolfgang von Goethe",
+      "publisher": "Reclam",
+      "publishedYear": 1808,
+      "isAvailable": false
+    },
+    {
+      "id": 2,
+      "isbn": "978315000472",
+      "title": "Die Verwandlung",
+      "author": "Franz Kafka",
+      "publisher": "Reclam",
+      "publishedYear": 1915,
+      "isAvailable": true
+    },
+    {
+      "id": 3,
+      "isbn": "9783257221608",
+      "title": "Der Besuch der alten Dame",
+      "author": "Friedrich Dürrenmatt",
+      "publisher": "Diogenes",
+      "publishedYear": 1956,
+      "isAvailable": true
+    },
+    {
+      "id": 4,
+      "isbn": "9783257221257",
+      "title": "Die Physiker",
+      "author": "Friedrich Dürrenmatt",
+      "publisher": "Diogenes",
+      "publishedYear": 1961,
+      "isAvailable": false
+    },
+    {
+      "id": 5,
+      "isbn": "9783548601360",
+      "title": "1984",
+      "author": "George Orwell",
+      "publisher": "Ullstein",
+      "publishedYear": 1949,
+      "isAvailable": true
+    }
+  ],
+  "loans": [
+    {
+      "id": 0,
+      "bookId": 1,
+      "userId": 42,
+      "borrowedAt": "2026-11-01T10:15:00Z",
+      "dueDate": "2026-11-29T10:15:00Z",
+      "returnedAt": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 1,
+      "bookId": 4,
+      "userId": 103,
+      "borrowedAt": "2026-10-15T08:00:00Z",
+      "dueDate": "2026-11-12T08:00:00Z",
+      "returnedAt": null,
+      "status": "OVERDUE"
+    },
+    {
+      "id": 2,
+      "bookId": 3,
+      "userId": 87,
+      "borrowedAt": "2026-10-05T13:30:00Z",
+      "dueDate": "2026-11-02T13:30:00Z",
+      "returnedAt": "2026-10-20T09:00:00Z",
+      "status": "RETURNED"
+    }
+  ]
+}
